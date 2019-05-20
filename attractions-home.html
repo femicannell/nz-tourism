@@ -1,0 +1,110 @@
+﻿uii<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="nz new zealand attractions what to do views">
+    <meta name="author" content="tourism new zealand nz attractions events upcoming">
+    <title>Discover New Zealand - History</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+     <!-- jQuery -->
+    <script src="js/jquery-1.10.1.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+
+                        <span class="nav-fern" onmouseout="white_fern()" onMouseOver="green_fern()"><a href="index.html" class="navbar-brand"><img  id="fern" src="img/fern-white.png" alt="logo" /> | New Zealand</a></span>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeader">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- navHeader is a programmer-defined class -->
+                        <div class="collapse navbar-collapse navHeader">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="history.html">History</a></li>
+                                <li class="active"><a href="attractions-home.html">Attractions</a></li>
+                                <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Upcoming Events <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="events-north.html">North Island</a></li>
+                                        <li><a href="events-south.html">South Island</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- end of collapse -->
+                        </div>
+                    </div>
+                <!-- end of navbar -->
+                
+    <div class="container">
+    	<div class="attractions-info">
+    		<h1>Attractions</h1>
+    		<h4>Please select an island to continue!</h4>
+    	</div>
+    	<div class="map-img">
+    		<map  id="ImgMap0" name="ImgMap0">
+				<area onmouseout="island(0)" onmouseover="island(1)" alt="" coords="242, 45, 300, 129, 316, 175, 313, 207, 306, 238, 291, 246, 274, 261, 277, 273, 288, 274, 305, 290, 332, 301, 332, 333, 310, 365, 307, 372, 318, 372, 324, 379, 329, 377, 336, 389, 366, 365, 380, 335, 399, 310, 414, 280, 407, 279, 407, 264, 427, 251, 437, 253, 444, 258, 447, 234, 453, 232, 468, 224, 466, 207, 465, 199, 475, 177, 466, 177, 465, 172, 443, 176, 430, 194, 401, 188, 366, 170, 372, 170, 362, 132, 355, 129, 364, 126, 354, 124, 341, 111, 348, 129, 350, 140, 347, 150, 339, 145, 340, 138, 332, 137, 328, 132, 320, 132, 317, 146, 308, 140, 318, 128, 314, 119, 314, 110, 321, 105, 303, 78, 299, 74, 308, 77, 305, 68, 310, 68, 298, 44, 287, 46, 280, 32, 257, 30, 262, 23, 250, 26, 238, 3, 223, 2, 245, 32" href="attractions-north.html" shape="poly">
+				<area onmouseout="island(0)" onmouseover="island(2)" alt="" coords="194, 395, 209, 362, 206, 345, 219, 337, 223, 324, 229, 331, 227, 337, 234, 344, 241, 342, 241, 350, 246, 356, 242, 365, 250, 372, 266, 356, 273, 338, 277, 341, 272, 352, 287, 351, 294, 355, 291, 364, 297, 364, 282, 374, 287, 382, 284, 388, 292, 389, 293, 397, 283, 408, 280, 420, 267, 427, 254, 457, 233, 472, 236, 492, 247, 498, 250, 505, 237, 508, 220, 499, 220, 507, 176, 532, 177, 564, 163, 588, 161, 602, 155, 606, 164, 615, 147, 622, 143, 635, 133, 639, 124, 656, 95, 663, 83, 660, 75, 662, 69, 656, 66, 648, 52, 651, 40, 638, 36, 644, 12, 644, 13, 635, 4, 633, 3, 625, 12, 620, 3, 616, 10, 602, 14, 594, 18, 584, 26, 580, 23, 574, 47, 554, 65, 523, 78, 518, 85, 520, 102, 501, 119, 492, 126, 480, 152, 459, 168, 442, 175, 426, 183, 394" href="attractions-south.html" shape="poly">
+			</map>
+    		<img class="full-map" src="img/nz-map-1.png" id="ImgMap0" alt="NZ Map" usemap="#ImgMap0">
+    	</div>
+    	
+    
+    </div>                
+                
+       <!-- ----- Footer ----- -->
+    <div class = "navbar navbar-inverse">
+    	<div class = "container">
+        	<a href="index.html" class="navbar-text pull-right">Home</a><a href="history.html" class="navbar-text pull-right">History</a>
+        	<a href="attractions-home.html" class="navbar-text pull-right">Attractions</a><a href="contact.html" class="navbar-text pull-right">Contact</a>
+        	<p class="navbar-text pull-left"> &copy; FMC Web Design &nbsp; &#9679; &nbsp; <span class="footer-links">Privacy Policy</span> &nbsp; &#9679; &nbsp; <span class="footer-links">Terms and Conditions</span></p>
+        	
+        </div>             
+    </div>
+    <!-- End of Footer -->
+
+    
+
+<!-- JAVASCRIPT -->
+<script>
+// Fern
+function green_fern(){
+	document.images["fern"].src= "img/fern-green.png";
+}
+function white_fern(){
+	document.images["fern"].src= "img/fern-white.png";
+}
+
+// Map
+
+function island(id){
+	if (id == 0){
+		document.images["ImgMap0"].src= "img/nz-map-1.png";
+	}
+	
+	if (id == 1){
+		document.images["ImgMap0"].src= "img/nz-map-2.png";
+	}
+
+	if (id == 2){
+		document.images["ImgMap0"].src= "img/nz-map-3.png";
+	}
+}
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+﻿uii<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="nz new zealand attractions what to do views">
+    <meta name="author" content="tourism new zealand nz attractions events upcoming">
+    <title>Discover New Zealand - History</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+     <!-- jQuery -->
+    <script src="js/jquery-1.10.1.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/form-script.js"></script>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+
+                        <span class="nav-fern" onmouseout="white_fern()" onMouseOver="green_fern()"><a href="index.html" class="navbar-brand"><img  id="fern" src="img/fern-white.png" alt="logo" /> | New Zealand</a></span>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeader">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- navHeader is a programmer-defined class -->
+                        <div class="collapse navbar-collapse navHeader">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="history.html">History</a></li>
+                                <li><a href="attractions-home.html">Attractions</a></li>
+                                <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Upcoming Events <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="events-north.html">North Island</a></li>
+                                        <li><a href="events-south.html">South Island</a></li>
+                                    </ul>
+                                </li>
+                                <li class="active"><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- end of collapse -->
+                        </div>
+                    </div>
+                <!-- end of navbar -->
+                
+    <div  class="heading">
+	    <h2>Contact Us</h2>
+	    <br>
+	    <br>	    
+    </div>
+	
+	<div class="container">
+		<div class="details-container">
+		
+			<ul class="contact-details">
+				<li><label>Phone:</label>0800 BEAUTY (232889)</li>
+				<li><label>Fax:</label>07 BEAUTY2 (2328892)</li>
+				<li><label>Email:</label>contact@discovernz.co.nz</li>
+				<li><label>Address:</label>50 Hazeldean Road, Addington, Christchurch</li>
+			</ul>
+			
+			<div class="google-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.1245928372273!2d172.61666911586323!3d-43.54144467912516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318a6e4dbdc3b9%3A0x393849267d40d0b2!2s50+Hazeldean+Rd%2C+Addington%2C+Christchurch+8024!5e0!3m2!1sen!2snz!4v1540414482977" width="400" height="300" frameborder="0" style="border: 1px solid black;" allowfullscreen></iframe>
+			</div>
+			
+		</div>
+	</div>
+	
+    <div  class="heading">
+		<h2>Send Us a Message:</h2>
+		<br>
+		<br>	    
+    </div>
+
+
+	<div class="container">
+		<div class="contact-form-div">
+			<form name="contact_form" id="contact_form" method="post">
+			
+				<ul>
+					<li><label><span class="error_msg">*</span> First Name:</label><input name="first_name" type="text" size="30"></li>
+					<li class="nolabel"><span class="error_msg" id="first_name_error"></span></li>
+				
+					<li><label><span class="error_msg">*</span> Last Name:</label><input name="last_name" type="text" size="30"></li>
+					<li class="nolabel"><span class="error_msg" id="last_name_error"></span></li>
+					
+					<li><label><span class="error_msg">*</span> Email:</label><input name="email" type="email" size="30"></li>
+					<li class="nolabel"><span class="error_msg" id="email_error"></span></li>
+	
+					<li><label><span class="error_msg">*</span> Year of birth:</label><input name="age" type="text" size="4"></li>
+					<li class="nolabel"><span class="error_msg" id="age_error"></span></li>
+				</ul>	
+				<ul>
+					
+					<li><label>What would you like to know more about? (optional)</label></li>						
+						<li>
+							<select name="salary">
+								<option value="0">---------- Select one --------- </option>
+								<option value="1">Music</option>
+								<option value="2">Food</option>
+								<option value="3">Sport</option>
+								<option value="4">Sightseeing</option>
+							</select>
+						</li>
+					
+					
+					<li><label style="width:250px;">Message:</label></li>
+					<li><textarea name="msg"></textarea></li>
+					<li><span id="msg_error" class="error_msg"></span></li>
+					
+					<li class="nolabel"><input type="checkbox" name="interests" value="0"> &nbsp;I would like to hear about updates, events, and more!</li>
+					
+					<li id="submit_button"><input type="submit" onclick="validateform(); return false" id="submit" value="Submit"> &nbsp; <span class="error_msg">*</span> Required Field</li>
+				</ul>				
+				
+			</form>
+		</div>
+	
+	</div>
+	
+
+    
+    <!-- ----- Footer ----- -->
+    <div class = "navbar navbar-inverse">
+    	<div class = "container">
+        	<a href="index.html" class="navbar-text pull-right">Home</a><a href="history.html" class="navbar-text pull-right">History</a>
+        	<a href="attractions-home.html" class="navbar-text pull-right">Attractions</a><a href="contact.html" class="navbar-text pull-right">Contact</a>
+        	<p class="navbar-text pull-left"> &copy; FMC Web Design &nbsp; &#9679; &nbsp; <span class="footer-links">Privacy Policy</span> &nbsp; &#9679; &nbsp; <span class="footer-links">Terms and Conditions</span></p>
+        	
+        </div>             
+    </div>
+    <!-- End of Footer -->
+
+    
+
+<!-- JAVASCRIPT -->
+<script>
+// Fern
+function green_fern(){
+	document.images["fern"].src= "img/fern-green.png";
+}
+function white_fern(){
+	document.images["fern"].src= "img/fern-white.png";
+}
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,333 @@
+ uii<!DOCTYPE html>
+<head>
+	 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="nz new zealand attractions what to do views">
+    <meta name="author" content="tourism new zealand nz attractions events upcoming">
+       
+    <title>Discover New Zealand - Home</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+     <!-- jQuery -->
+    <script src="js/jquery-1.10.1.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <style>
+    .carousel-inner{
+	background:url('img/parallax1.jpg') fixed;
+}
+    </style>
+    
+    
+</head>
+<body>
+	<!-- -------------NAVBAR-------------- -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+
+                        <span class="nav-fern" onmouseout="white_fern()" onMouseOver="green_fern()"><a href="index.html" class="navbar-brand"><img  id="fern" src="img/fern-white.png" alt="logo" /> | New Zealand</a></span>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeader">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- navHeader is a programmer-defined class -->
+                        <div class="collapse navbar-collapse navHeader">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="history.html">History</a></li>
+                                <li><a href="attractions-home.html">Attractions</a></li>
+                                <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                	Upcoming Events <b class="caret"></b>
+                                </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="events-north.html">North Island</a></li>
+                                        <li><a href="events-south.html">South Island</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- end of collapse -->
+                        </div>
+                    </div>
+                <!-- end of navbar -->
+    <!-- Carousel-full screen -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+      <!-- Milford Sound -->
+        <div class="item active">
+           <img src="img/carousel/4.jpg" alt="">
+           
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>New Zealand</h1>
+              <p class="lead">Discover the beauty of the Milford Sound</p>
+              <a class="btn btn-small btn-primary" href="attractions-south.html">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Southern Alps -->
+        <div class="item">
+          <img src="img/carousel/alps.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption text-centered">
+              <h1>New Zealand</h1>
+              <p class="lead">Stand in awe of the famous Southern Alps</p>
+              <a class="btn btn-small btn-primary" href="attractions-south.html">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Tekapo -->
+        <div class="item">
+          <img src="img/carousel/volcano-stars.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>New Zealand</h1>
+              <p class="lead">Shoot for the stars</p>
+              <a class="btn btn-small btn-primary" href="attractions-south.html">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Rotorua -->
+        <div class="item">
+          <img src="img/carousel/rotorua-walkway.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>New Zealand</h1>
+              <p class="lead">Relax in the natural hot springs of Rotorua</p>
+              <a class="btn btn-small btn-primary" href="attractions-north.html">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="fa fa-angle-left fa-3x"></i></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="fa fa-angle-right fa-3x"></i></a>
+    </div><!-- /.carousel -->
+    
+    
+    
+    <!-- Parallax -->
+    <div class="parallax1">
+    <!-- Welcome Section -->
+    <div class="container welcome-container">
+  		<div class="jumbotron text-center">
+       		<h2>Welcome to New Zealand</h2>
+      		<h3>Aotearoa (New Zealand) has many great things to offer!</h3>
+		    <a href="history.html" class="btn btn-primary btn-lg">History</a>  
+		    <a href="attractions-home.html" class="btn btn-primary btn-lg">Attractions</a>
+		    <a href="#contact-modal" data-toggle="modal" class="btn btn-primary btn-lg">Quick Contact</a>
+		    <a href="contact.html" class="btn btn-primary btn-lg">Sign up to our mailing list!</a>
+ 		</div>
+	</div>
+	</div>
+	<!-- End of Parallax -->
+	
+	<!-- contents -->
+	<div class="container">
+   <div class="row">
+   <div class="box">
+   	  <!-- Hanmer Springs Modal -->
+	<div class="col-sm-4 text-center">
+	    <a href="#modal1" class="portfolio-link" data-toggle="modal">
+			<div class="caption">
+				<div class="caption-content">
+				   <i class="fa fa-search-plus fa-4x"></i>
+				</div>
+	        </div>
+	    	<img class="img-responsive" src="img/home-modals/hanmer-logo.jpg" alt="">
+	    </a>
+	    <h5>Hanmer Springs Thermal Pools and Spa</h5>
+	    <a class="view-button" href="#modal1" data-toggle="modal">
+			 <button class="btn btn-primary"> View </button>
+	    </a><br><br>
+	</div>
+        <!-- SKYCITY Modal -->        
+	    <div class="col-sm-4 text-center">
+	        <a href="#modal2" class="portfolio-link" data-toggle="modal">
+				<div class="caption">
+					<div class="caption-content">
+					   <i class="fa fa-search-plus fa-4x"></i>
+					</div>
+		        </div>
+	        <img class="img-responsive" src="img/home-modals/skycity.png" alt="">
+	        </a>
+	        <h5>SKYCITY Auckland</h5>
+	        <a class="view-button" href="#modal2" data-toggle="modal">
+				 <button class="btn btn-primary"> View </button>
+	        </a><br><br>
+	    </div>
+        <!-- Skyline Queenstown -->        
+        <div class="col-sm-4 text-center">
+            <a href="#modal3" class="portfolio-link" data-toggle="modal">
+				<div class="caption">
+					<div class="caption-content">
+					   <i class="fa fa-search-plus fa-4x"></i>
+					</div>
+		        </div>
+            <img class="img-responsive" src="img/home-modals/skyline-queenstown-logo.png" alt="">
+            </a>
+            <h5>Skyline Queenstown</h5>
+            <a class="view-button" href="#modal3" data-toggle="modal">
+				 <button class="btn btn-primary"> View </button>
+            </a><br><br>
+        </div>
+
+   	  </div>
+      <!-- End of Box -->    
+   </div>
+   <!-- end of row -->
+</div>
+<!-- end of container for contents -->
+
+<!-- Modal id called modal1 -->
+	<div id="modal1" class="modal fade" role="dialog">
+	   <div class="modal-dialog">
+	      <div class="modal-content">
+	          <div class="modal-header">
+	              <h3>Hanmer Springs Thermal Pools and Spa</h3>
+	          </div>
+	          <div class="modal-body">
+	              <img class="img-responsive img-border-left" src="img/home-modals/hanmer-pool-1.jpg" alt="Pool">
+
+	              <h4>Hanmer Springs Thermal Pools and Spa</h4>
+	              <h5>Hanmer Springs Thermal Pools and Spa showcases a natural hot spring located in the resort town of Hanmer, 
+	              90 minutes north of Christchurch.  Hanmer Springs Thermal Pools and Spa provides the absolute best in comfort, 
+	              with a range of pools including relaxing rock pools, soothing sulphur pools, an array of water jets and bubbles â€“ 
+	              at a range of temperatures. As well as places to relax, Hanmer Springs provides an activity pool, lap pool, lazy river, 
+	              water slides, garden and picnic areas, and their well-known Tea Kiosk CafÃ© and Grill. As well as the hot springs, 
+	              Hanmer has many other fantastic activities to offer, from hiking and mountain biking, to enjoying a meal at one of the local restaurants, 
+	              Hanmer is sure to have what youâ€™re looking for.</h5>
+	          </div>
+	          <div class="modal-footer">
+	          <h3>
+	             <a class="btn btn-default" data-dismiss="modal">Close</a>
+	             </h3>
+	          </div>
+
+	      </div>
+	      <!-- end of modal-content -->
+	   </div>
+	   <!-- end of modal-dialog -->
+	</div>
+<!-- end of modal1 -->
+
+<!-- Modal id called modal2 -->
+	<div id="modal2" class="modal fade" role="dialog">
+	   <div class="modal-dialog">
+	      <div class="modal-content">
+	          <div class="modal-header">
+	              <h3>SKYCITY</h3>
+	          </div>
+	          <div class="modal-body">
+	              <img class="img-responsive img-border-left" src="img/home-modals/skytower.jpg" alt="logo">
+	              <h4>SKYCITY</h4>
+	              <h5>SKYCITY Auckland is located in one of New Zealandâ€™s largest cities. The Sky Tower is a well-known landmark in New Zealand, 
+	              and many travellers make memories here. Whether youâ€™re in to bungee jumping, fine dining, gaming, dancing or simply sleeping in a 
+	              5-star hotel, SKYCITY offers it all. The Casino is open 24 hours a day and offers over 2,100 Gaming Machines and 150 Table Games 
+	              at just about every level of excitement. The Grand Hotel is just one of the hotels in the SKYCITY complex. 
+	              Ideally situated in the heart of Aucklandâ€™s CBD, with many of the Cityâ€™s most impressive attractions and eateries literally on 
+	              your doorstep, the SKYCITY Grand Hotel offers guests a truly five-star experience.</h5>
+	          </div>
+	          <div class="modal-footer">
+	          <h3>
+	             <a class="btn btn-default" data-dismiss="modal">Close</a>
+	             </h3>
+	          </div>
+
+	      </div>
+	      <!-- end of modal-content -->
+	   </div>
+	   <!-- end of modal-dialog -->
+	</div>
+<!-- end of modal2 -->
+
+<!-- Modal id called modal3 -->
+	<div id="modal3" class="modal fade" role="dialog">
+	   <div class="modal-dialog">
+	      <div class="modal-content">
+	          <div class="modal-header">
+	              <h3>Skyline Queenstown</h3>
+	          </div>
+	          <div class="modal-body">
+	              <img class="img-responsive img-border-left" src="img/home-modals/gondola.jpg" alt="logo">
+	              <h4>Skyline Queenstown</h4>
+	              <h5>Sit back and relax and take in the stunning views as you ride the Skyline Queenstown Gondola - 
+	              the steepest cable car lift in the Southern Hemisphere and one of the must-do activities in Queenstown! 
+	              Youâ€™ll be carried 450 metres above Queenstown and Lake Wakatipu to the top of Bob's Peak, where youâ€™ll enjoy 
+	              the best views in the region unfolding before your eyes. You get to experience a spectacular 220 degree panorama 
+	              with breath-taking views of Coronet Peak, The Remarkables, Walter and Cecil Peak and, of course, Queenstown. 
+	              When you get to the top, choose your own pace from the host of activities on offer whether youâ€™re looking for a 
+	              day packed with thrills or a relaxing evening with some of the best of NZ and international cuisine.</h5>
+	          </div>
+	          <div class="modal-footer">
+	          <h3>
+	             <a class="btn btn-default" data-dismiss="modal">Close</a>
+	             </h3>
+	          </div>
+
+	      </div>
+	      <!-- end of modal-content -->
+	   </div>
+	   <!-- end of modal-dialog -->
+	</div>
+<!-- end of modal3 -->
+
+
+<!-- Modal id called contactmodal -->
+	<div id="contact-modal" class="modal fade" role="dialog">
+	   <div class="modal-dialog">
+	      <div class="modal-content">
+	          <div class="modal-header">
+	              <h3>Contact Details</h3>
+	          </div>
+	          <div class="modal-body">
+	            <ul class="contact-modal">
+					<li><span class="contactlabel">Phone:</span>0800 BEAUTY (232889)</li>
+					<li><span class="contactlabel">Fax:</span>07 BEAUTY2 (2328892)</li>
+					<li><span class="contactlabel">Email:</span>contact@discovernz.co.nz</li>
+					<li><span class="contactlabel">Address:</span>50 Hazeldean Road, Addington, Christchurch</li>
+					<li><div class="google-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.1245928372273!2d172.61666911586323!3d-43.54144467912516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318a6e4dbdc3b9%3A0x393849267d40d0b2!2s50+Hazeldean+Rd%2C+Addington%2C+Christchurch+8024!5e0!3m2!1sen!2snz!4v1540414482977" width="400" height="300" frameborder="0" style="border: 1px solid black;" allowfullscreen></iframe>
+					</div></li>
+				</ul>
+	          </div>
+	          <div class="modal-footer">
+	          <h3>
+	             <a class="btn btn-default" data-dismiss="modal">Close</a>
+	             </h3>
+	          </div>
+
+	      </div>
+	      <!-- end of modal-content -->
+	   </div>
+	   <!-- end of modal-dialog -->
+	</div>
+<!-- end of contactmodal-->
+    <!-- ----- Footer ----- --> n
+    <div class = "navbar navbar-inverse">
+    	<div class = "container">
+        	<div class="navbar-inner"><a href="index.html" class="navbar-text pull-right">Home</a><a href="history.html" class="navbar-text pull-right">History</a>
+        	<a href="attractions-home.html" class="navbar-text pull-right">Attractions</a><a href="contact.html" class="navbar-text pull-right">Contact</a></div>
+        	<p class="navbar-text pull-left"> &copy; FMC Web Design &nbsp; &#9679; &nbsp; <span class="footer-links">Privacy Policy</span> &nbsp; &#9679; &nbsp; <span class="footer-links">Terms and Conditions</span></p>
+        	
+        </div>             
+    </div>
+    <!-- End of Footer -->
+
+<script>
+	function green_fern(){
+	document.images["fern"].src= "img/fern-green.png";
+  	}
+  	function white_fern(){
+	document.images["fern"].src= "img/fern-white.png";
+  	}
+</script>
+   
+</body>
+</html>
